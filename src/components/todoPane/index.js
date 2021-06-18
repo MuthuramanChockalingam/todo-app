@@ -10,6 +10,7 @@ const TodoPane = () => {
 	return (
 	<div className='todoPane'>
 		<div>
+			<h3 className='todo-header'>TodoApp</h3>
 			{toggleAll()}
 			{todoInput()}
 			<span>{actionButton()}</span>

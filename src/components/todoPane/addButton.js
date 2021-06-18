@@ -3,9 +3,10 @@ import context from '../../core/context';
 
 const AddButton = () =>
 	<button
+		className="addButton"
 		disabled={ context.state.input === '' }
 		onClick={ () => context.actions.addTodo() }
 	>
-		Add</button>;
+		.</button>;
 
 export default AddButton;

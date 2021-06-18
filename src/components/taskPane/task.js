@@ -5,14 +5,16 @@ const removeButton = (task) =>
 	<button
 		className="closeButton"
 		onClick={ () => context.actions.removeTask(task) }
-	>X</button>;
+	> </button>;
 
 const addButton = (task) =>
-	<button onClick={ () => {
-		context.actions.addTaskTodo(task) ;
-		context.actions.removeTask(task);
-	} }
-	>+</button>;
+	<button
+		className="addButton"
+		onClick={ () => {
+			context.actions.addTaskTodo(task) ;
+			context.actions.removeTask(task);
+		} }
+	> </button>;
 
 const Task = (task) => {
 	const { id, text } = task;

@@ -22,8 +22,7 @@ const Todo = (todo) => {
 			<button
 				className="closeButton"
 				onClick={ () => context.actions.removeTodo(todo) }
-			>
-				X</button>
+			/>
 		</span>
 	</div>;
 };
