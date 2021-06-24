@@ -4,6 +4,7 @@ import toggleAll from './toggleAlltodos.js';
 import clearCompleted from './clearCompleted.js';
 import filterBar from './filterBar.js';
 import actionButton from './actionButton.js';
+import ThemeSelect from './themeSelect.js';
 
 const TodoPane = () => {
 
@@ -18,6 +19,7 @@ const TodoPane = () => {
 		<div>Todos: {todoList() }</div>
 		<div>{ clearCompleted() }</div>
 		<div>{ filterBar() }</div>
+		<div>{ ThemeSelect() }</div>
 	</div>
 	);
 };

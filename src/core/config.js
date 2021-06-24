@@ -5,6 +5,7 @@ const config = {
 	idLength: 16,
 	tickerDelay: milliseconds * seconds,
 	minimumTaskCount: 3,
+	themes: ['light', 'dark'],
 };
 
 export default config;
