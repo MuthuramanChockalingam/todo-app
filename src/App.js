@@ -6,6 +6,7 @@ import TaskPane from './components/taskPane';
 import Ticker from './services/ticker.js';
 import context from './core/context';
 import './Light.css';
+import './Dark.css';
 
 const App = () => {
 	useEffect(TaskManager.init, []);

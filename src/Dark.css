@@ -1,0 +1,8 @@
+.dark .todoPane{
+	background: black;
+	color: rgb(20, 148, 20);
+	font-family: 'Trebuchet MS';
+	font-style: oblique;
+	font-weight: bold;
+	font-size: 20px;
+}
