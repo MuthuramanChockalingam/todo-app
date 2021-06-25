@@ -76,14 +76,6 @@ button {
 	background: rgb(143, 143, 235);
 }
 
-.light {
-	background: white;
-}
-
-.dark {
-	background: grey;
-}
-
 .App {
 	text-align: center;
 }

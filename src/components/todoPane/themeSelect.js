@@ -8,7 +8,7 @@ const ThemeOption = (theme) =>
 
 const ThemeSelect = () =>
 	<div>
-		<label>Theme</label>
+		<label>Theme </label>
 		<select
 			value={ context.state.theme }
 			onChange={ (evt) => context.actions.setTheme(evt.target.value) }
