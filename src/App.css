@@ -6,9 +6,6 @@
 	color: black;
 };
 
-.todo {
-	height: 1em;
-}
 .filterBar {
 	background-color: gray;
 }
@@ -52,11 +49,8 @@ button {
 }
 
 .todoPane {
-	position: absolute;
-	top: 0;
 	left: 0;
 	height: 100%;
-	width: 50%;
 	background:rgb(250, 250, 130);
 }
 
@@ -68,12 +62,24 @@ button {
 }
 
 .taskPane {
-	position: absolute;
-	top: 0;
 	right: 0;
 	height: 100%;
-	width: 50%;
 	background: rgb(143, 143, 235);
+}
+
+.task {
+	height: 2em;
+}
+
+.todo {
+	height: 2em;
+}
+
+.pane {
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	width: 50%;
 }
 
 .App {

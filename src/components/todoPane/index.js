@@ -9,7 +9,7 @@ import ThemeSelect from './themeSelect.js';
 const TodoPane = () => {
 
 	return (
-	<div className='todoPane'>
+	<div className='pane todoPane'>
 		<div>
 			<h3 className='todo-header'>TodoApp</h3>
 			{toggleAll()}
